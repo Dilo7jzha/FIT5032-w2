@@ -114,7 +114,7 @@
     <section class="lab-section">
       <h2>Attribute, Class and Style Binding with <code>v-bind</code></h2>
       <p>Highlighting Specific Authors:</p>
-      <h3 :class="{ highlight: highlight }"> {{ orwell?.name }}</h3>
+      <p :class="{ highlight: highlight }"> {{ orwell?.name }}</p>
 
     </section>
   </div>
